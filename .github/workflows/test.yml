@@ -1,14 +1,15 @@
+```yaml
 name: Test Workflow
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-test:
-runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: 25ds3000020@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
 ```
-steps:
-  - name: 25ds3000020@ds.study.iitm.ac.in
-    run: echo "Hello, world!"
-```
+
